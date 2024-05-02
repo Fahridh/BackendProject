@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Quiz</title>
+    <link rel="stylesheet" href="../src/quiz.css">
+</head>
+
+<body>
+    <header>
+        <button id="back-btn">Kembali</button>
+        <h1>Buat Quiz</h1>
+        <div></div>
+    </header>
+
+    <div class="quiz-container">
+        <div class="quiz-title">
+        </div>
+        <form id="quizForm">
+            <h3>Judul Quiz</h3>
+            <input type="text" id="title" name="title" placeholder="Title" required>
+            <h3>Deskripsi Quiz</h3>
+            <input type="text" id="description" name="description" placeholder="Description" required>
+            <h3>Tipe Quiz</h3>
+            <select id="type">
+                <option value="public">public</option>\
+                <option value="private">private</option>
+            </select>
+            <button type="submit">Create Quiz</button>
+        </form>
+    </div>
+    <script src="../api/createquiz.js"></script>
+</body>
+
+</html>
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="../src/quiz.css">
+</head>
+<body>
+    <body>
+        <div class="quiz-container">
+            <div class="quiz-title">
+                <h2>Create Quiz</h2>
+            </div>
+            <form id="quizForm">
+                <h3>Judul Quiz</h3>
+                <input type="text" id="title" name="title" placeholder="Title" required>
+                <h3>Deskripsi Quiz</h3>
+                <input type="text" id="description" name="description" placeholder="Description" required>
+                <h3>Tipe Quiz</h3>
+                <select id="type">
+                    <option value="public">public</option>\
+                    <option value="private">private</option>
+                </select>
+                <button type="submit">Create Quiz</button>
+            </form>
+        </div>
+
+  <script src="../api/.js"></script>
+</body>
+</html> -->
